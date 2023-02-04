@@ -41,7 +41,7 @@ article{
     background-color: black;
     text-align: justify;
     font-size: 10px;
-    display: grid;
+    height: 500px;
 }
 
 article h1{
@@ -49,13 +49,13 @@ article h1{
 }
 
 article img{
-    width: 150px;
+    width: 300px;
     float: left;
+    padding-right: 20px;
 }
 
 article li {
-    list-style-type: none;
-    float: right;
+    list-style-type: square;
 }
 
 nav {
