@@ -38,22 +38,27 @@ header {
 
 article{
     grid-area: a;
-    background-color: black !important;
+    background-color: black;
     text-align: justify;
     font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
 }
 
 article h1{
     font-size: 15p;
 }
 
-article .img{
-    margin-left: 0;
-    width: 200px;
+article #img{
+    width: 100px;
+}
+
+article li {
+    list-style-type: none;
 }
 
 nav {
-    background-color: grey !important;
+    background-color: grey;
     width: auto;
     height: auto;
     grid-area: n;
@@ -61,7 +66,6 @@ nav {
 
 nav li {
     list-style-type: none;
-
 }
 
 nav li ul {
@@ -83,6 +87,6 @@ nav li ul a:hover {
 footer{
     text-align: center;
     font-size: 10px;
-    height: 40px;
+    height: auto;
     width: auto;
 }
