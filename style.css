@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
@@ -88,4 +89,97 @@ footer{
     font-size: 10px;
     height: auto;
     width: auto;
+=======
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    color: beige;
+    font-size: 10pt;
+    margin: 0;
+    padding: 0;
+    
+} 
+
+body {
+    background-image: url(img/teglafal.jpg);
+}
+
+main{
+    width: 80%;
+    max-height: 1000px;
+    background-color: #333333;
+    margin: auto;
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    "a a n";
+}
+
+header {
+    background-image: url(img/beer.jpg);
+    height: 300px;
+    background-size: cover;
+    font-weight: bold;
+    font-size: 32pt;
+    text-align: left;
+    letter-spacing: 4px;
+    padding-left: 30px;
+    padding-top: 30px;
+    grid-area: h;
+}
+
+article{
+    grid-area: a;
+    background-color: black;
+    text-align: justify;
+    font-size: 10px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+article h1{
+    font-size: 15p;
+}
+
+article #img{
+    width: 100px;
+}
+
+article li {
+    list-style-type: none;
+}
+
+nav {
+    background-color: grey;
+    width: auto;
+    height: auto;
+    grid-area: n;
+}
+
+nav li {
+    list-style-type: none;
+}
+
+nav li ul {
+    border: solid white 1px;
+    border-radius: 5px;
+}
+
+nav li a{
+    font-weight: bold;
+    color: red;
+    text-decoration: none;
+}
+
+nav li ul a:hover {
+    background-color: beige;
+    color: white;
+}
+
+footer{
+    text-align: center;
+    font-size: 10px;
+    height: auto;
+    width: auto;
+>>>>>>> 2ea053cd56e7a6f2e2b767eafcf16147abfd4010
 }
